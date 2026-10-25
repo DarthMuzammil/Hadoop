@@ -1,0 +1,189 @@
+[WikiTrend] Batch run over 30 hourly files (2022-09-07T18 .. 2022-09-08T23)
+[WikiTrend] Running WikiTrend-1-Aggregate ...
+[WikiTrend] WikiTrend-1-Aggregate done in 563.7 s
+      ACCEPTED                         165,852,519
+      NON_ARTICLE_PAGE                   5,710,212
+      NON_WIKIPEDIA_PROJECT             11,638,900
+      ARTICLE_HOURS                    132,293,753
+      VIEWS_ACCEPTED                   654,348,373
+[WikiTrend] Running WikiTrend-2-SpikeDetection ...
+[WikiTrend] WikiTrend-2-SpikeDetection done in 291.1 s
+      ARTICLES_SEEN                      2,877,917
+      ARTICLES_SKIPPED_LOW_PEAK          2,873,859
+      BELOW_NOISE_FLOOR                110,531,847
+      HOURS_SCORED                         109,566
+      SPIKES_FOUND                           3,739
+[WikiTrend] Running WikiTrend-3-TopSpikes ...
+[WikiTrend] WikiTrend-3-TopSpikes done in 171.6 s
+[WikiTrend] Pipeline finished in 1027.2 s
+
+=== Trending on Wikipedia, hour 2022-09-07T21 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Frances Tiafoe                                     33370      10535     4.58     3.17
+2    it    Alessio Zerbin                                      9421         31   463.97   291.37
+3    fr    Blandine Rinkel                                     8354        887     6.14     9.41
+
+=== Trending on Wikipedia, hour 2022-09-07T22 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    es    Ana Torroja                                         6733         59   859.79   111.75
+2    fr    Grace Kelly                                         6001        279    19.22    21.43
+3    de    K-129                                               3972         17   681.46   223.77
+
+=== Trending on Wikipedia, hour 2022-09-07T23 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    ????                                               15469          0 15469.00 15469.00
+2    ja    ????                                                7656          0  7656.00  7656.00
+3    de    Neven Suboti?                                       5191         29   458.87   174.19
+
+=== Trending on Wikipedia, hour 2022-09-08T00 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Jessica Pegula                                     25561       1665    53.09    15.34
+2    en    Terry Pegula                                       10994        789    57.07    13.93
+3    en    Iga ?wi?tek                                         8280        685    56.96    12.08
+
+=== Trending on Wikipedia, hour 2022-09-08T01 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Terry Pegula                                       18043       2528     4.09     7.13
+2    ja    WONK                                                9747          5  1964.94  1772.18
+3    en    Kim Pegula                                         11252       1526     4.17     7.37
+
+=== Trending on Wikipedia, hour 2022-09-08T02 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Jannik Sinner                                      23175       1072    61.75    21.60
+2    en    Carlos Alcaraz                                     11337       1036    40.49    10.93
+3    en    Andy Roddick                                        8402       1963     5.49     4.28
+
+=== Trending on Wikipedia, hour 2022-09-08T03 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Juan Mart?n del Potro                               8933        314   217.59    28.33
+2    en    Onam                                                8128       1779     4.77     4.57
+3    en    James Stewart                                       2975        323    56.59     9.18
+
+=== Trending on Wikipedia, hour 2022-09-08T04 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    ????????                                            4601        119    19.05    38.34
+2    pt    Mano Brown                                          4213         56   553.11    74.57
+3    ja    ???                                                 4005         45    44.10    88.02
+
+=== Trending on Wikipedia, hour 2022-09-08T05 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    ????                                                8869        442    15.04    20.03
+2    ja    ????                                                6999        319    17.66    21.86
+3    en    Miss Universe 2010                                  4170          5  1070.50   714.86
+
+=== Trending on Wikipedia, hour 2022-09-08T06 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    ??????????                                          2659         19   376.24   130.77
+2    de    Robert Habeck                                       2879        626     4.31     4.59
+3    ja    ????                                                1690          5   349.59   266.84
+
+=== Trending on Wikipedia, hour 2022-09-08T07 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    ????                                                4728         14   686.04   322.36
+2    en    Longest tennis match records                        4922        312    14.21    15.71
+3    de    Max Raabe                                           2999         12   412.33   227.77
+
+=== Trending on Wikipedia, hour 2022-09-08T08 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    de    Bernadette Heerwagen                                4132         22   152.84   180.96
+2    ru    M982 Excalibur                                      3877        213    10.08    18.15
+3    de    Marco Rose                                          3076        250    16.01    12.25
+
+=== Trending on Wikipedia, hour 2022-09-08T09 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    ????                                                3779        126    47.98    29.80
+2    en    Joe Tracini                                         2597          5   224.34   421.14
+3    ja    ?????                                               2518        175    14.10    14.28
+
+=== Trending on Wikipedia, hour 2022-09-08T10 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Graham Potter                                      25983       5293     9.78     4.91
+2    ja    ????????                                            3834         22   459.54   165.50
+3    ja    ?????                                               3764         11   769.23   318.08
+
+=== Trending on Wikipedia, hour 2022-09-08T11 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    fr    Futuroscope                                         5921         12   448.65   461.38
+2    ja    ????                                                4213         33   496.42   122.71
+3    en    Peter Bone                                          2224         39    33.57    55.60
+
+=== Trending on Wikipedia, hour 2022-09-08T12 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    ????                                               22779         55  2132.24   410.43
+2    en    Elizabeth II                                       22311       1452   293.10    15.36
+3    en    Operation London Bridge                            14463         86   827.12   166.56
+
+=== Trending on Wikipedia, hour 2022-09-08T13 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Elizabeth II                                       93939       4937    11.45    19.02
+2    en    Operation London Bridge                            80819       2483    14.62    32.53
+3    en    Balmoral Castle                                    27816        781    19.42    35.59
+
+=== Trending on Wikipedia, hour 2022-09-08T14 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Operation London Bridge                           157695      15939     4.81     9.89
+2    ru    ????????? II                                       67140       2544    14.48    26.38
+3    es    Isabel II del Reino Unido                          43887       3904     5.28    11.24
+
+=== Trending on Wikipedia, hour 2022-09-08T15 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ru    ????????? II                                      175119      13679     6.64    12.80
+2    ru    ??????, ????? ????????                             29355       3064     5.24     9.58
+3    en    2022 Asia Cup                                      23463       5001     7.24     4.69
+
+=== Trending on Wikipedia, hour 2022-09-08T16 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Asia Cup                                           38592       8584     4.35     4.50
+2    en    2022 Asia Cup                                      37965       8275     4.10     4.59
+3    en    Virat Kohli                                        26801        806    42.94    33.23
+
+=== Trending on Wikipedia, hour 2022-09-08T17 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    pt    Isabel II do Reino Unido                           35188       7791     4.01     4.52
+2    en    Monkeypox                                          12434        303   195.64    40.97
+3    en    2022 monkeypox outbreak                             6572        340   124.20    19.25
+
+=== Trending on Wikipedia, hour 2022-09-08T18 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Elizabeth II                                     2221743     171181    22.20    12.98
+2    es    Isabel II del Reino Unido                         604501      59105    13.37    10.23
+3    en    Charles, Prince of Wales                          401659      36083    20.09    11.13
+
+=== Trending on Wikipedia, hour 2022-09-08T19 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Charles, King of the United Kingdom               518130      48233     4.36    10.74
+2    en    Charles III                                       225315       7020    14.10    32.09
+3    en    George VI                                         191127      33527     5.31     5.70
+
+=== Trending on Wikipedia, hour 2022-09-08T20 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Prince William, Duke of Cornwall and Cambr...     103308       7897     5.40    13.08
+2    en    Operation Unicorn (Scotland)                       76914       2588    12.84    29.70
+3    es    Carlos III del Reino Unido                         60561       5014     6.59    12.08
+
+=== Trending on Wikipedia, hour 2022-09-08T21 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Nerissa and Katherine Bowes-Lyon                   27611       3012     4.67     9.16
+2    en    Camilla, Queen consort of the United Kingdom       15778          0 15778.00 15778.00
+3    es    Quevedo (cantante)                                 14730        787    11.03    18.70
+
+=== Trending on Wikipedia, hour 2022-09-08T22 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    tr    2023 UEFA ?lkeler s?ralamas?                       15196       2956     5.30     5.14
+2    it    Attacco di Pearl Harbor                            12711        550    12.47    23.09
+3    de    Verena Bentele                                      5516         84    84.23    65.15
+
+=== Trending on Wikipedia, hour 2022-09-08T23 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Camilla, Queen consort of the United Kingdom       45206       6576     4.03     6.87
+2    ja    ???                                                10208          1  5477.74  5568.00
+3    ja    ????? (???????)                                    10850       3597     4.31     3.02
+
+real	17m9.459s
+user	0m8.397s
+sys	0m1.285s
+
+0        0        /wikitrend/out/_work
+3.3 G    3.3 G    /wikitrend/out/agg
+225.9 K  225.9 K  /wikitrend/out/spikes
+34.0 K   34.0 K   /wikitrend/out/top

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <!-- One DataNode, so one replica per block -->
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file://${user.home}/hadoop_data/namenode</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file://${user.home}/hadoop_data/datanode</value>
+  </property>
+  <property>
+    <!-- 128 MB blocks: each ~250 MB hourly file becomes 2 blocks = 2 map tasks -->
+    <name>dfs.blocksize</name>
+    <value>134217728</value>
+  </property>
+</configuration>

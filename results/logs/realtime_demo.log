@@ -1,0 +1,64 @@
+[19:05:57] >> Detected new file: /wikitrend/landing/pageviews-20220908-120000
+[WikiTrend] New hour arrived: 2022-09-08T12  (file /wikitrend/landing/pageviews-20220908-120000)
+[WikiTrend] Running WikiTrend-1-Aggregate ...
+[WikiTrend] WikiTrend-1-Aggregate done in 51.9 s
+      ACCEPTED                           6,201,402
+      NON_ARTICLE_PAGE                     186,182
+      NON_WIKIPEDIA_PROJECT                478,744
+      ARTICLE_HOURS                      4,943,763
+      VIEWS_ACCEPTED                    20,163,957
+[WikiTrend] Baseline hours available: 6 of 6
+[WikiTrend] Running WikiTrend-2-SpikeDetection ...
+[WikiTrend] WikiTrend-2-SpikeDetection done in 95.4 s
+      ARTICLES_SEEN                      1,531,340
+      ARTICLES_SKIPPED_LOW_PEAK          1,530,870
+      BELOW_NOISE_FLOOR                 26,395,864
+      HOURS_SCORED                             470
+      SPIKES_FOUND                              54
+[WikiTrend] Running WikiTrend-3-TopSpikes ...
+[WikiTrend] WikiTrend-3-TopSpikes done in 26.0 s
+[WikiTrend] Hour 2022-09-08T12 processed in 173.6 s
+=== Trending on Wikipedia, hour 2022-09-08T12 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    ja    武田玲奈                                               22779         55  2132.24   410.43
+2    en    Elizabeth II                                       22311       1452   293.10    15.36
+3    en    Operation London Bridge                            14463         86   827.12   166.56
+4    ru    AGM-114 Hellfire                                    5360         93    34.90    57.02
+5    en    List of longest-reigning monarchs                   5163        220   166.09    23.36
+6    fr    Élisabeth II                                        4769        197   167.99    24.05
+7    ja    村重杏奈                                                4266         20   548.62   199.97
+8    ja    新山千春                                                4134         12   573.99   330.72
+9    en    Charles, Prince of Wales                            4430        505   134.73     8.76
+10   en    Prince Philip, Duke of Edinburgh                    4277        375   129.78    11.39
+[19:09:02] >> Detected new file: /wikitrend/landing/pageviews-20220908-130000
+[WikiTrend] New hour arrived: 2022-09-08T13  (file /wikitrend/landing/pageviews-20220908-130000)
+[WikiTrend] Running WikiTrend-1-Aggregate ...
+[WikiTrend] WikiTrend-1-Aggregate done in 52.3 s
+      ACCEPTED                           6,472,548
+      NON_ARTICLE_PAGE                     219,278
+      NON_WIKIPEDIA_PROJECT                467,351
+      ARTICLE_HOURS                      5,122,907
+      VIEWS_ACCEPTED                    22,589,358
+[WikiTrend] Baseline hours available: 6 of 6
+[WikiTrend] Running WikiTrend-2-SpikeDetection ...
+[WikiTrend] WikiTrend-2-SpikeDetection done in 90.8 s
+      ARTICLES_SEEN                      1,601,217
+      ARTICLES_SKIPPED_LOW_PEAK          1,600,564
+      BELOW_NOISE_FLOOR                 27,391,712
+      HOURS_SCORED                             653
+      SPIKES_FOUND                             200
+[WikiTrend] Running WikiTrend-3-TopSpikes ...
+[WikiTrend] WikiTrend-3-TopSpikes done in 25.7 s
+[WikiTrend] Hour 2022-09-08T13 processed in 169.1 s
+=== Trending on Wikipedia, hour 2022-09-08T13 UTC ===
+#    lang  article                                            views   baseline        z        x
+1    en    Elizabeth II                                       93939       4937    11.45    19.02
+2    en    Operation London Bridge                            80819       2483    14.62    32.53
+3    en    Balmoral Castle                                    27816        781    19.42    35.59
+4    en    Charles, Prince of Wales                           22670       1155    14.69    19.61
+5    es    Isabel II del Reino Unido                          20781        472    29.81    43.98
+6    en    Prince Philip, Duke of Edinburgh                   19844       1021    12.92    19.42
+7    en    List of longest-reigning monarchs                  19398       1050     9.97    18.46
+8    ja    駿河太郎                                               17595        117   577.91   149.11
+9    ja    松本若菜                                               14992         94   802.86   157.81
+10   ja    浅香航大                                               14014         92   730.83   151.50

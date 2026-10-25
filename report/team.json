@@ -1,0 +1,11 @@
+{
+  "members": [
+    {"name": "Member 1 Name", "usn": "USN 1"},
+    {"name": "Member 2 Name", "usn": "USN 2"},
+    {"name": "Member 3 Name", "usn": "USN 3"},
+    {"name": "Member 4 Name", "usn": "USN 4"}
+  ],
+  "guide": "Mr. Pavankumar S / Ms. Soumya Patil",
+  "semester": "VII Semester, 2026-27",
+  "division": ""
+}

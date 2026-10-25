@@ -1,0 +1,8 @@
+target/
+hive/build/
+*.class
+metastore_db/
+derby.log
+__pycache__/
+hive/*.jar
+report/*.html

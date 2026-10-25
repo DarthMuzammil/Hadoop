@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!-- Single-node (pseudo-distributed) cluster. Copy into $HADOOP_HOME/etc/hadoop/ -->
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://localhost:9000</value>
+  </property>
+  <property>
+    <!-- Keep HDFS data out of /tmp so it survives a VM reboot -->
+    <name>hadoop.tmp.dir</name>
+    <value>${user.home}/hadoop_data/tmp</value>
+  </property>
+</configuration>

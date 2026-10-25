@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>yarn.nodemanager.aux-services</name>
+    <value>mapreduce_shuffle</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.env-whitelist</name>
+    <value>JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_CONF_DIR,CLASSPATH_PREPEND_DISTCACHE,HADOOP_YARN_HOME,HADOOP_HOME,PATH,LANG,TZ,HADOOP_MAPRED_HOME</value>
+  </property>
+  <!-- Memory/CPU YARN may hand out. Lower to 3072 if the VM has only 4-6 GB RAM. -->
+  <property>
+    <name>yarn.nodemanager.resource.memory-mb</name>
+    <value>6144</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.resource.cpu-vcores</name>
+    <value>4</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.maximum-allocation-mb</name>
+    <value>6144</value>
+  </property>
+  <property>
+    <!-- Avoid containers being killed for virtual-memory use on small VMs -->
+    <name>yarn.nodemanager.vmem-check-enabled</name>
+    <value>false</value>
+  </property>
+  <property>
+    <!-- Default 90% disk threshold marks a nearly-full VM disk "unhealthy" and jobs hang -->
+    <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
+    <value>98.0</value>
+  </property>
+</configuration>
